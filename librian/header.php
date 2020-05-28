@@ -1,5 +1,4 @@
 <?php
-#explode dara page er link ke vanglam
 $page=explode('/',$_SERVER['PHP_SELF']);
 #$page=$page[count($page)-1];
  $page=end($page);
@@ -24,7 +23,6 @@ $librian_info=mysqli_fetch_assoc($data);
 
 
 
-#<?= $page == 'index.php' ? 'active-item' : '' eita diye dynamically page active korlam
 
 
 ?>

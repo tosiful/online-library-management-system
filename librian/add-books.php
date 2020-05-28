@@ -17,7 +17,6 @@ if(isset($_POST['save_info'])){
 
 
     /*
-     eita erroe astece bidai korte pari nai .pore try korbo
 
      $image=explode('.',$_FILES['book_image']['name']);
      $img_ext=end($image);
@@ -68,7 +67,6 @@ if(isset($_POST['save_info'])){
 if(count($input_errors)==0){
 
 
-    //jodi $result success hoi tahole msg ta show korve
 
 
     $book=mysqli_query($con,"SELECT * FROM `books` WHERE `book_name`='$book_name'");

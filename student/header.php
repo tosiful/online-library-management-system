@@ -2,18 +2,18 @@
 
 require_once '../dbcon.php';
 
-#explode dara page er link ke vanglam
+#explode broken the page link
 $page=explode('/',$_SERVER['PHP_SELF']);
 #$page=$page[count($page)-1];
  $page=end($page);
  session_start();
-//jodi session teke take taile sign page a jete parbona
+//if there is session than it will be go sign in page
             if(!isset($_SESSION['student_login'])){
 
 
                 header('sign-in.php');
             }
-#nicher code ta diye profiler name ta show koraici
+#The below code showing profile name
           $student_login=$_SESSION['student_login'];
 
 
@@ -27,7 +27,7 @@ $student_info=mysqli_fetch_assoc($data);
 
 
 
-#<?= $page == 'index.php' ? 'active-item' : '' eita diye dynamically page active korlam
+#<?= $page == 'index.php' ? 'active-item' : '' this code is the dynamically page active code
 
 
 ?>

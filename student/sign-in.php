@@ -24,10 +24,8 @@ if(isset($_POST['login'])){
 
 
 $result= mysqli_query($con,"SELECT * FROM `students` WHERE `email`= '$email' OR `username`='$email'");
-#row check korce
 if(mysqli_num_rows($result)==1){
 
-#eita diye db teke data tole ance
     $row=mysqli_fetch_assoc($result);
 
     if(password_verify($password,$row['password'])){
@@ -35,7 +33,6 @@ if(mysqli_num_rows($result)==1){
 
         if($row['status']==1){
 
-//jodi session er sobkiso tiktak take tahole index.php page niye jabe
             $_SESSION['student_login']=$email;
             $_SESSION['id']=$row['id'];
             $_SESSION['student_login_'];

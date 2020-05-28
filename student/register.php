@@ -5,7 +5,6 @@ require_once '../dbcon.php';
 
 
 session_start();
-//jodi session theke take taile index.php page a patiye dibe
 if(isset(  $_SESSION['student_login'])){
 
     header('location: index.php');
@@ -75,7 +74,6 @@ if (isset($_POST['std_reg'])){
         $input_errors['password']="Password field is required!";
     }
 
-    #jodi kono error na take mane $input_error=0 hoi ortat kono field kali na take tahole data insert hobe
     if(count($input_errors)==0){
 
 
@@ -168,7 +166,6 @@ if (isset($_POST['std_reg'])){
     }
 
 }
-//value="<?=isset($fname)?$fname:'' - eita diye submit korar por input value gola form a reke dei
 
 
 ?>
