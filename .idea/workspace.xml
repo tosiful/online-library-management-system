@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab5052c2-6099-4a96-b4b6-4d66ba21d76d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change beforePath="$PROJECT_DIR$/librian/add-books.php" afterPath="$PROJECT_DIR$/librian/add-books.php" />
       <change beforePath="$PROJECT_DIR$/librian/header.php" afterPath="$PROJECT_DIR$/librian/header.php" />
       <change beforePath="$PROJECT_DIR$/student/header.php" afterPath="$PROJECT_DIR$/student/header.php" />
@@ -30,6 +31,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2430">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="37" />
+              <folding>
+                <marker date="1590662830785" expanded="true" signature="453:510" ph="SELECT * FRO... librian" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2793">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+              <folding>
+                <marker date="1590661811141" expanded="true" signature="63:87" ph="SELECT * FRO... students" />
+                <marker date="1590661811141" expanded="true" signature="195:235" ph="SELECT * FRO... students" />
+                <marker date="1590661811141" expanded="true" signature="195:239" ph="SELECT * FRO... students" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/librian/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,84 +74,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="issue-book.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/issue-book.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3318">
-              <caret line="155" column="138" lean-forward="false" selection-start-line="155" selection-start-column="130" selection-end-line="155" selection-end-column="138" />
+            <state relative-caret-position="69">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <marker date="1589916772268" expanded="true" signature="206:328" ph="INSERT INTO `issue_books`... " />
-                <marker date="1589916772268" expanded="true" signature="1948:1991" ph="SELECT * FRO... students" />
-                <marker date="1589916772268" expanded="true" signature="3072:3131" ph="SELECT * FRO... students" />
-                <marker date="1589916772268" expanded="true" signature="4110:4156" ph="SELECT * FRO... books" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2475">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage-books.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/manage-books.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4137">
-              <caret line="194" column="16" lean-forward="false" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
-              <folding>
-                <marker date="1590344531686" expanded="true" signature="1621:1642" ph="SELECT * FRO... books" />
-                <marker date="1590344531686" expanded="true" signature="3154:3175" ph="SELECT * FRO... books" />
-                <marker date="1590344531686" expanded="true" signature="5357:5378" ph="SELECT * FRO... books" />
-                <marker date="1590344531686" expanded="true" signature="5481:5519" ph="SELECT * FRO... books" />
-                <marker date="1590344531686" expanded="true" signature="12095:12370" ph="UPDATE `books`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print-all-students.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/print-all-students.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1929">
-              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <marker date="1590317292629" expanded="true" signature="63:87" ph="SELECT * FRO... students" />
-                <marker date="1590317292629" expanded="true" signature="1681:1912" ph="..." />
-                <marker date="1590317292629" expanded="true" signature="1704:1741" ph="..." />
-                <marker date="1590317292629" expanded="true" signature="1769:1912" ph="..." />
-                <marker date="1590317292629" expanded="true" signature="1778:1912" ph="..." />
-                <marker date="1590317292629" expanded="true" signature="1787:1910" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="return-book.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/return-book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2478">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding>
-                <marker date="1589916700373" expanded="true" signature="1494:1838" ph="SELECT `issu... issue_books" />
-                <marker date="1589916700373" expanded="true" signature="2794:2862" ph="UPDATE `issue_books`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student_inactive.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/student_inactive.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <marker date="1589130452570" expanded="true" signature="74:125" ph="UPDATE `students`... " />
+                <marker date="1589911651352" expanded="true" signature="1471:1652" ph="SELECT `issu... books" />
               </folding>
             </state>
           </provider>
@@ -142,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students_active.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="students_active.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/librian/students_active.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -154,12 +110,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/librian/logout.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="945">
+              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="75" lean-forward="false" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/librian/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/librian/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4488">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1590662831102" expanded="true" signature="345:401" ph="SELECT * FRO... librian" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,6 +161,8 @@
       <find>&lt; class=&quot;row&quot;&gt;</find>
       <find>student_login</find>
       <find>ja</find>
+      <find>This is Helsinki Template!</find>
+      <find>toast-message</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,10 +173,8 @@
       <list>
         <option value="$PROJECT_DIR$/student/reg_php.php" />
         <option value="$PROJECT_DIR$/student/test.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/student/logout.php" />
         <option value="$PROJECT_DIR$/librian/logout.php" />
-        <option value="$PROJECT_DIR$/librian/footer.php" />
         <option value="$PROJECT_DIR$/librian/student_inactive.php" />
         <option value="$PROJECT_DIR$/librian/students_active.php" />
         <option value="$PROJECT_DIR$/librian/login.php" />
@@ -210,6 +198,8 @@
         <option value="$PROJECT_DIR$/student/sign-in.php" />
         <option value="$PROJECT_DIR$/librian/add-books.php" />
         <option value="$PROJECT_DIR$/librian/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/librian/footer.php" />
       </list>
     </option>
   </component>
@@ -322,17 +312,18 @@
       <workItem from="1590140907395" duration="23128000" />
       <workItem from="1590474996408" duration="13662000" />
       <workItem from="1590647724798" duration="1000" />
-      <workItem from="1590647742566" duration="7511000" />
+      <workItem from="1590647742566" duration="9431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148106000" />
+    <option name="totallyTimeSpent" value="150026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1944146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1944146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -552,60 +543,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="75" lean-forward="false" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3864">
-          <caret line="29" column="92" lean-forward="false" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
-          <folding>
-            <marker date="1590662830785" expanded="true" signature="453:510" ph="SELECT * FRO... librian" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <marker date="1589911651352" expanded="true" signature="1471:1652" ph="SELECT `issu... books" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <marker date="1590661811141" expanded="true" signature="63:87" ph="SELECT * FRO... students" />
-            <marker date="1590661811141" expanded="true" signature="195:235" ph="SELECT * FRO... students" />
-            <marker date="1590661811141" expanded="true" signature="195:239" ph="SELECT * FRO... students" />
-            <marker date="1590661811141" expanded="true" signature="1894:2212" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="2063:2212" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="2389:2698" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="2561:2698" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="2904:3236" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="3072:3236" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="3412:3744" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="3579:3744" ph="..." />
-            <marker date="1590661811141" expanded="true" signature="3941:4027" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,14 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/librian/add-books.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -680,39 +614,6 @@
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <marker date="1589652482780" expanded="true" signature="138:174" ph="DELETE FROM `books`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librian/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="26" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librian/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1590662831102" expanded="true" signature="345:401" ph="SELECT * FRO... librian" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/librian/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="107" column="57" lean-forward="false" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
-          <folding>
-            <marker date="1590176650213" expanded="true" signature="939:963" ph="SELECT * FRO... librian" />
-            <marker date="1590176650213" expanded="true" signature="939:966" ph="SELECT * FRO... librian" />
-            <marker date="1590176650213" expanded="true" signature="1954:1977" ph="SELECT * FRO... librian" />
-            <marker date="1590176650213" expanded="true" signature="3016:3037" ph="SELECT * FRO... books" />
-            <marker date="1590176650213" expanded="true" signature="3160:3205" ph="SELECT SUM(`... books" />
-            <marker date="1590176650213" expanded="true" signature="3333:3381" ph="SELECT SUM(`... books" />
           </folding>
         </state>
       </provider>
@@ -813,6 +714,87 @@
           <folding>
             <marker date="1589130610040" expanded="true" signature="74:125" ph="UPDATE `students`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding>
+            <marker date="1590661811141" expanded="true" signature="63:87" ph="SELECT * FRO... students" />
+            <marker date="1590661811141" expanded="true" signature="195:235" ph="SELECT * FRO... students" />
+            <marker date="1590661811141" expanded="true" signature="195:239" ph="SELECT * FRO... students" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <marker date="1590662830785" expanded="true" signature="453:510" ph="SELECT * FRO... librian" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="75" lean-forward="false" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <marker date="1589911651352" expanded="true" signature="1471:1652" ph="SELECT `issu... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librian/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4488">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1590662831102" expanded="true" signature="345:401" ph="SELECT * FRO... librian" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librian/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2247">
+          <caret line="107" column="57" lean-forward="false" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+          <folding>
+            <marker date="1590176650213" expanded="true" signature="939:963" ph="SELECT * FRO... librian" />
+            <marker date="1590176650213" expanded="true" signature="939:966" ph="SELECT * FRO... librian" />
+            <marker date="1590176650213" expanded="true" signature="1954:1977" ph="SELECT * FRO... librian" />
+            <marker date="1590176650213" expanded="true" signature="3016:3037" ph="SELECT * FRO... books" />
+            <marker date="1590176650213" expanded="true" signature="3160:3205" ph="SELECT SUM(`... books" />
+            <marker date="1590176650213" expanded="true" signature="3333:3381" ph="SELECT SUM(`... books" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librian/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
