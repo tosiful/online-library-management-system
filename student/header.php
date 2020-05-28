@@ -215,6 +215,7 @@ $student_info=mysqli_fetch_assoc($data);
 
                             <li class="<?= $page == 'index.php' ? 'active-item' : ''?>"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i><span>Dashboard</span></a></li>
                             <li class="<?=$page =='books.php'?'active-item':''  ?>"> <a href="books.php"><i class="fa fa-book" aria-hidden="true"></i><span>Books</span></a></li>
+                            <li class="<?=$page =='profile.php'?'active-item':''  ?>"> <a href="profile.php"><i class="fa fa-user" aria-hidden="true"></i><span>Profile</span></a></li>
 
 
 

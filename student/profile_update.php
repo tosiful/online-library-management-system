@@ -32,6 +32,7 @@ if(isset($_POST['id'])){
     $id = $_POST['id'];
 
     $fname = $_POST['fname'];
+
     $lname = $_POST['lname'];
     $email = $_POST['email'];
     $roll = $_POST['roll'];
@@ -41,7 +42,7 @@ if(isset($_POST['id'])){
 
 
 
-    $result=mysqli_query($con,"UPDATE `students` SET fname`='$fname',`lname`='$lname',`roll`='$roll',`reg`='$reg',`email`='$email',`username`='$username',`phone`='$phone' WHERE `id`  ='$id' ");
+    $result= mysqli_query($con,"UPDATE `students` SET `fname`='$fname',`lname`='$lname',`roll`='$roll',`reg`='$reg',`email`='$email',`username`='$username',`phone`='$phone'  WHERE `id`='$id'");
 
 
 
@@ -52,6 +53,9 @@ if(isset($_POST['id'])){
 
 
 }
+
+
+
 
 
 
@@ -86,11 +90,10 @@ if(isset($_POST['id'])){
                         <div class="form-group">
                             <label for="email2" class="col-sm-2 control-label">First Name</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="fname" placeholder="First Name" value="<?=$tim['fname'] ?>" >
-                                <input type="text" name="id" value="<?=$tim['id'];    ?>">
+                                <input type="text" class="form-control" name="fname" placeholder="First Name" value="<?=$tim['fname']?>" >
+                                <input type="hidden" name="id" value="<?=$tim['id'];    ?>">
                             </div>
                         </div>
-
 
 
                         <div class="form-group">
@@ -111,10 +114,25 @@ if(isset($_POST['id'])){
 
 
 
+
+
+
+
+
+                        <div class="form-group">
+                            <label for="email2" class="col-sm-2 control-label">Username</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="username" placeholder="User Name" value="<?= $tim['username'] ?>"  >
+                            </div>
+                        </div>
+
+
+
+
                         <div class="form-group">
                             <label for="email2" class="col-sm-2 control-label">Roll</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="roll" placeholder="Roll" pattern="[0-9]{6}"  value="<?=$tim['roll'] ?>">
+                                <input type="text" class="form-control" name="roll" placeholder="Roll" pattern="[0-9]{6}"  value="<?=$tim['roll'] ?>" readonly>
                             </div>
                         </div>
 
@@ -124,7 +142,7 @@ if(isset($_POST['id'])){
                         <div class="form-group">
                             <label for="email2" class="col-sm-2 control-label">Reg</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="reg" placeholder="Reg No" pattern="[0-9]{6}"  value="<?=$tim['reg']  ?>">
+                                <input type="text" class="form-control" name="reg" placeholder="Reg No" pattern="[0-9]{6}"  value="<?=$tim['reg']  ?>" readonly>
                             </div>
                         </div>
 
@@ -133,24 +151,18 @@ if(isset($_POST['id'])){
                         <div class="form-group">
                             <label for="email2" class="col-sm-2 control-label">Phone</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="phone" placeholder="01*********" pattern="01[1|5|6|7|8|9][0-9]{8}"  value="<?=$tim['phone']  ?>">
+                                <input type="text" class="form-control" name="phone" placeholder="01*********" pattern="01[1|5|6|7|8|9][0-9]{8}"  value="<?=$tim['phone']  ?>" readonly>
                             </div>
                         </div>
 
 
 
-                        <div class="form-group">
-                            <label for="email2" class="col-sm-2 control-label">Username</label>
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="username" placeholder="User Name" value="<?= $tim['username'] ?>" >
-                            </div>
+
+                        <div  class="forn-group col-sm-offset-2">
+                            <input class="btn btn-primary btn-block" type="submit" name="save_info" value="Upadate users">
                         </div>
 
-                        <div  class="form-group col-md-8">
-                            <input type="submit" name="save_info" value="Upadate users">
 
-
-                        </div>
 
 
 
